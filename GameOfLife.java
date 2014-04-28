@@ -19,8 +19,10 @@ public class GameOfLife extends JApplet {
 	private static final long serialVersionUID = 1L;
 	
 	
-	/* Okay, I should learn what the static fuss is about. Right now I'm just tacking
-	 * it on to move on with the code :P */
+	/* I make all of these variables static because so is main...
+	 * Would it be better to put these inside of main? But then other methods could 
+	 * not access them directly. 
+	 */
 	 
 	static int squaresInRow = 15;
 	static int squaresInCol = 15;
